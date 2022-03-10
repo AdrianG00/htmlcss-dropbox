@@ -14,7 +14,6 @@ html {
 img {
     width: 100%;
 }
-
 .clearfix::after {
     content: '';
     display: table;
@@ -53,7 +52,6 @@ img {
 
 /* Plan */
 .plan{
-    height: 650px;
     background-color: cadetblue;
 }
 .plan-title{
@@ -74,10 +72,96 @@ img {
     width: 100%;
     height: 150px;
     background-color: rgb(124, 74, 74);
+    margin-bottom: 4em;
 }
 
 /* partner */
 .partner{
-    height: 200px;
     background-color: lightcoral;
+    margin-bottom: 4em;
+}
+.col-partner-l{
+    float: left;
+    width: 60%;
+    height: 200px;
+    background-color: blanchedalmond;
+}
+.col-partner-r{
+    float:right;
+    width: 40%;
+    height: 200px;
+    background-color: darkturquoise;
+}
+
+/* info */
+.info{
+    background-color: cadetblue;
+    margin-bottom: 4em;
+}
+.info-text{
+    height: 100px;
+    background-color: brown;
+}
+.col-info{
+    float: left;
+    height: 400px;
+    width: Calc(100%/3 - 10px);
+    margin: 0 5px;
+    background-color: aliceblue;
+}
+
+/* testimonials */
+.testimonials{
+    background-color: rebeccapurple ;
+    margin-bottom: 4em;
+}
+.testimonials-text{
+    height: 100px;
+    background-color: gold;
+}
+.col-testimonials-c{
+    float: left;
+    width: 40%;
+    height: 400px;
+    background-color: chocolate;
+}
+.col-testimonials-s{
+    float: left;
+    width: 30%;
+    height: 400px;
+    background-color: rgb(250, 202, 167);
+}
+
+/* trial */
+.trial{
+    height: 200px;
+    background-color: dodgerblue;
+    margin-bottom: 4em;
+}
+
+/* request */
+.request{
+    height: 400px;
+    background-color: rgb(113, 255, 30);
+    margin-bottom: 4em;
+}
+
+/* Footer */
+footer{
+    background-color: black;
+    height: 200px;
+    width: 100%;
+}
+.footer-container{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: azure;
+}
+.footer-container .col{
+    float: left;
+    width: calc(100%/5 - 10px);
+    height: 90%;
+    background-color: blueviolet;
+    margin: 0 5px;
 }
