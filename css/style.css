@@ -14,41 +14,139 @@ html {
 img {
     width: 100%;
 }
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
 .clearfix::after {
     content: '';
     display: table;
     clear: both;
 }
 .container{
-    width: 80%;
+    width: 78%;
     margin: auto;
 }
+/* button */
+.button{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0 1em;
+    height: 2.5em;
+    line-height: 2.5em;
+    font-size: 1.1em;
+}
+
+.small-button{
+    height: 3em;
+    line-height: 3em;
+    font-size: 0.8em;
+}
+.blue-button {
+    background-color: #0061ff;
+    color: white;
+}
+
 
 /* header */
 .nav-bar{
+    background-color: white;
+    position: fixed;
     width: 100%;
-    height: 60px;
-    background-color: rgb(128, 229, 255);
+    top: 0;
+    left: 0;
+    padding: 0 1.5rem;
 }
 .header-col-r, .header-col-l{
-    width: 40%;
-    height: 60px;
-    background-color: rgb(250, 250, 156);
+    width: 50%;
+    line-height: 60px;
+
 }
 .header-col-r{
     float: right;
+    text-align: right;
+    
 }
 .header-col-l{
     float: left;
+    
 }
+.header-list-l li, .header-list-r li {
+    display: inline-block;
+    vertical-align: middle;
+    
+    
+} 
+#nav-logo{
+    height: 2em;
+    width: auto;
+    vertical-align: middle;
+    text-align: center;
+    
+}
+.header-col-l .header-list-l a, .header-col-r .header-list-r a{
+    font-size: 1.2em;
+    color: black;
+    font-weight: 500;
+    padding: 0 0.8em;
+    color: inherit;
+}
+
+
+
 
 /* Main */
 /* Jumbotron */
 .jumbotron{
     width: 100%;
-    height: 400px;
+    height: 450px;
     background-color: rgb(180, 208, 231);
+    color: black;
+    padding-top: 6em;
+    margin-top: 6em;
+    margin-bottom: 15em;
 }
+.jumbotron-cont{
+    width: 82%;
+    margin: 0 auto;
+}
+.jumbotron-cont h1{
+    font-size: 4.5em;
+    font-weight: bolder;
+    margin-bottom: 0.6em;
+}
+#jumbo-img{
+    height: 34em;
+    width: auto;
+}
+.jumbo-col-l{
+    float: left;
+    width: 40%;
+}
+ .jumbo-col-r{
+    float: left;
+    width: 60%;
+}
+.jumbo-col-l p{
+    padding-bottom: 1em;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+#jumbo-annul{
+    font-size: 1em;
+    font-weight: 600;
+    padding-bottom: 3em;
+    padding-top: 0.9em;
+}
+#jumbo-arrow{
+    font-size: 3em;
+}
+
+
+
 
 /* Plan */
 .plan{
