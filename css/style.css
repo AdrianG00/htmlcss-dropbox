@@ -55,12 +55,18 @@ a{
 .small-button{
     height: 3em;
     line-height: 3em;
-    font-size: 0.8em;
-    padding: 0 3em;
+    font-size: 1.1em;
+    padding: 0 2em;
 }
 .blue-button {
     background-color: #0061ff;
     color: white;
+}
+.white-button {
+    background-color: white;
+    color: black;
+    padding: 0.5em 2em;
+    border: 1px solid black;
 }
 
 
@@ -286,21 +292,33 @@ a{
 
 /* partner */
 .partner{
-    background-color: lightcoral;
     margin-bottom: 4em;
 }
 .col-partner-l{
     float: left;
     width: 60%;
-    height: 200px;
-    background-color: blanchedalmond;
+    margin: 0 auto;
+}
+.col-partner-l img{
+    object-fit: cover;
+    height: 42em;
+    width: auto;
+    padding: 1em;
+    margin: 0 auto;
 }
 .col-partner-r{
     float:right;
     width: 40%;
-    height: 200px;
-    background-color: darkturquoise;
+    text-align: left;
+    padding: 5em 0em;
 }
+.col-partner-r h1{
+    font-size: 2.5em;
+}
+.col-partner-r p{
+    font-size: 1.3em;
+}
+
 
 /* info */
 .info{
