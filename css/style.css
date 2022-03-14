@@ -176,13 +176,12 @@ a{
     
 }
 .plan-title{
-    height: 100px;
     width: 100%;
     margin-bottom: 1em;
 
 }
 .plan-title h1{
-    font-size: 2em;
+    font-size: 2.5rem;
     padding-bottom: 2em;
 }
 .plan-title input{
@@ -322,20 +321,29 @@ a{
 
 /* info */
 .info{
-    background-color: cadetblue;
     margin-bottom: 4em;
 }
 .info-text{
-    height: 100px;
-    background-color: brown;
+    padding-bottom: 4em;
 }
+.info-text h1{
+    font-size: 2.5em;
+}
+/* Colonne ifno */
 .col-info{
     float: left;
-    height: 400px;
     width: Calc(100%/3 - 10px);
     margin: 0 5px;
-    background-color: aliceblue;
 }
+.col-info h2{
+    padding: 1em;
+}
+.col-info p{
+    padding: 1.1em;
+    font-size: 1.2em;
+}
+
+
 
 /* testimonials */
 .testimonials{
